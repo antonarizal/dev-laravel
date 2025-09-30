@@ -1,8 +1,8 @@
 @props(['showCheckAll' => false,'message'=>'Data berhasil disimpan','results'=>[]])
 <flux:checkbox.group wire:model="selected">
-    <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <div class="relative overflow-x-auto shadow-md sm:rounded-lg bg-zinc-200">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 text-gray-700 dark:text-gray-400 dark:bg-zinc-900">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-zinc-900 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase  dark:bg-zinc-900 dark:text-gray-400">
             <tr>
                 @if($showCheckAll)
                 <th scope="col" class="p-4">
